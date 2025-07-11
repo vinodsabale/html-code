@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+
+    <style>
+
+        form{
+            width: 40%;
+            padding: 30px;
+            border: 1px solid red;
+        }
+
+        .lbl{
+            float: left;
+        }
+
+        label{
+            
+            font-size: 24px;
+        }
+
+        
+
+        .inp{
+            height: 45px;
+            width: 300px;
+            border-radius: 12px;
+            border: 2px solid black;
+            float: right;
+        }
+
+        button{
+            height: 45px;
+            width: 80px;
+            background-color: red;
+            padding: 4px;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 20px;
+        }
+    </style>
+
+    <body>
+        <center>
+            <h1 style="color:RED">Registration Form</h1>
+            <form style="font-size:20px">
+                <label class="lbl">First Name:</label>
+                <input type="text" class="inp">  <br><br><br>
+
+                <label class="lbl">Last Name:</label>
+                <input type="text" class="inp">  <br><br><br><br>
+
+                <label class="lbl">Gender:</label>
+                <label>Male:</label>
+                <input type="radio" name="gender">
+                <label>Female:</label>
+                <input type="radio" name="gender">
+                <label>Others:</label>
+                <input type="radio" name="gender"> <br><br><br><br>
+
+                <label class="lbl">DOB:</label>
+                <input type="date" class="inp">  <br><br><br>
+
+                <label class="lbl">Mob:</label>
+                <input type="number" class="inp">  <br><br><br>
+
+                <label class="lbl">Email:</label>
+                <input type="email" class="inp">  <br><br><br>
+
+                <label class="lbl">Password:</label>
+                <input type="password" class="inp">  <br><br><br>
+
+                <button style="color:black">Submit</button>
+            </form>
+        </center>
+    </body>
+</html>
